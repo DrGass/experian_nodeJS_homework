@@ -16,3 +16,8 @@ attaching full source code).
 - Source code
 - Unit tests will be a plus.
 - Try to embrace asynchronous approach and use parallelism whenever it’s possible!
+
+### Running tests:
+- npm test
+### Running program:
+- node ./main.js
