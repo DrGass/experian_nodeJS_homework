@@ -1,0 +1,21 @@
+{
+  "name": "experian_nodejs_assignment",
+  "version": "1.0.0",
+  "description": "Create a simple web scraper that will download titles and ratings of movies from [filmweb.pl](https://www.filmweb.pl/ranking/vod/film). Scraped movies should be from actual year and\r you should include only top 4 VOD services **(NeGlix, Max, Canal +, Disney)**. From each VOD\r movies list, you should scrape only 10 top movies. Then you should deduplicate (if needed)\r by movie title (higher rating should be saved). Results should be saved in CSV file format\r with such columns: Title, VOD service name, rating. Results should be ordered by rating in\r descending order.\r While implementing solution please have in mind an efficiency and time to delivery. You can\r use whatever NPM packages you want.\r Please attach in response an original email URL to repository with solution (instead of\r attaching full source code).",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "json2csv": "^6.0.0-alpha.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
+}
